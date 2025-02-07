@@ -21,10 +21,8 @@ pip install telethon aiogram
 Склонируйте репозитории с GitHub:
 Баш
 
-Копировать
+Копировать: git clone https://github.com/Ernar002/telegram-username-checker.git
 
-Редактировать
-git clone https://github.com/ТВОЙ_GITHUB_НИК/telegram-username-checker.git
 cd telegram-username-checker
 Шаг 4: Настройка данных для работы с Telegram
 Получите свой API ID и API Hash для Telegram здесь: https://core.telegram.org/api/obtaining_api_id . Для этого нужно войти в свой аккаунт Telegram и создать новое приложение.
@@ -47,7 +45,7 @@ API_HASH = "ВАШ_API_HASH"
 Копировать
 
 Редактировать
-python main.py
+python3 main.py
 Бот будет работать, и вы сразу же отправите ему имя пользователя для проверки.
 
 Шаг 6: Как использовать боту
